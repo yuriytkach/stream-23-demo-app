@@ -1,0 +1,8 @@
+quarkus:
+  log:
+    level: INFO
+    console:
+      enable: true
+      format: '%d{HH:mm:ss.SSS} %-5p (%-10t) [%c{2.}] %s%e%n'
+      color: true
+      darken: 1
